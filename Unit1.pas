@@ -45,7 +45,7 @@ begin
   end;
   for I := 0 to Length(loggers)-1 do
   begin
-    Loggers[i].InfoFmt('First log message to Loggers[%d]', [i], Format('Loggers[%s]', [i]));
+    Loggers[i].InfoFmt('First log message to Loggers[%d]', [i], Format('Loggers[%d]', [i]));
   end;
 end;
 
@@ -55,7 +55,7 @@ var
 begin
   for i := 0 to Length(loggers)-1 do
   begin
-    Loggers[i].InfoFmt('Manual log message to Loggers[%d]', [i], Format('Loggers[%s]', [i]));
+    Loggers[i].InfoFmt('Manual log message to Loggers[%d]', [i], Format('Loggers[%d]', [i]));
   end;
 end;
 
